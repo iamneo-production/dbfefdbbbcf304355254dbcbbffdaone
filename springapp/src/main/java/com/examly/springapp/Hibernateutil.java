@@ -1,5 +1,9 @@
 package com.examly.springapp;
 
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import com.examly.springapp.entity.Student;
+
 public class Hibernateutil {
     private static final SessionFactory sessionFactory = buildSessionFactory();
 
