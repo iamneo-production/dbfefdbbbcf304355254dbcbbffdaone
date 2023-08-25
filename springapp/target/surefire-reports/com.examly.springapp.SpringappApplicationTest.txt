@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.springapp.SpringappApplicationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.323 sec <<< FAILURE!
-testSaveAndRetrieveStudent(com.examly.springapp.SpringappApplicationTest)  Time elapsed: 0.254 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.298 sec <<< FAILURE!
+testSaveAndRetrieveStudent(com.examly.springapp.SpringappApplicationTest)  Time elapsed: 0.249 sec  <<< ERROR!
 org.hibernate.internal.util.config.ConfigurationException: Could not locate cfg.xml resource [hibernate.cfg.xml]
 	at org.hibernate.boot.cfgxml.internal.ConfigLoader.loadConfigXmlResource(ConfigLoader.java:53)
 	at org.hibernate.boot.registry.StandardServiceRegistryBuilder.configure(StandardServiceRegistryBuilder.java:254)
