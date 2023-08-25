@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.examly.springapp.SpringappApplicationTest" time="0.249" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="com.examly.springapp.SpringappApplicationTest" time="0.258" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Debian-1deb11u1"/>
@@ -59,7 +59,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.examly.springapp.SpringappApplicationTest" name="testSaveAndRetrieveStudent" time="0.249">
+  <testcase classname="com.examly.springapp.SpringappApplicationTest" name="testSaveAndRetrieveStudent" time="0.258">
     <error message="Could not locate cfg.xml resource [hibernate.cfg.xml]" type="org.hibernate.internal.util.config.ConfigurationException">org.hibernate.internal.util.config.ConfigurationException: Could not locate cfg.xml resource [hibernate.cfg.xml]
 	at org.hibernate.boot.cfgxml.internal.ConfigLoader.loadConfigXmlResource(ConfigLoader.java:53)
 	at org.hibernate.boot.registry.StandardServiceRegistryBuilder.configure(StandardServiceRegistryBuilder.java:254)
@@ -100,7 +100,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
-    <system-err>Aug 25, 2023 5:18:43 PM org.hibernate.Version logVersion
+    <system-err>Aug 25, 2023 5:37:15 PM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate ORM core version 5.5.6.Final
 </system-err>
   </testcase>
